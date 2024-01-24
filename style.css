@@ -1,7 +1,7 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap'); */
 /* @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap'); */
 /* @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 * {
     /* border: 1px solid red; */
@@ -28,13 +28,15 @@
 
 /* Search Bar Start */
 .form-control {
-    margin-top: 2px;
-    border-radius: 17px;
-    height: 36px;
+    margin-top: 2.5px;
+    height: 34px;
     width: 180px;
+    border-radius: 17px;
 }
 
 .search-btn {
+    margin-top: 2.5px;
+    height: 34px;
     border-radius: 17px;
     background-color: #895d00;
 }
@@ -168,7 +170,7 @@ body {
 }
 
 .card-title {
-    font-size: 22px;
+    text-align: center;
     font-weight: 900;
 }
 
@@ -198,15 +200,15 @@ body {
 
 
 
-
-
-
-
-
+/* MEDIA SCREEN QUERIES START */
 @media (max-width: 991px) {
     body {
         /* background: url(./img/bg8.jpg); */
         background-repeat: no-repeat;
+    }
+
+    .navbar-toggler-icon {
+        filter: invert(1);
     }
 
     .sidebar {
@@ -215,10 +217,17 @@ body {
         color: aliceblue;
     }
 
-    .navbar-toggler-icon {
-        filter: invert(1);
+    .d-flex {
+        display: flex;
+        flex-direction: column;
+        margin: 2% 10% 2% 10%;
     }
 
+    .form-control {
+        border-radius: 20px;
+        height: 36px;
+        width: 100%;
+    }
 
     .carousel {
         padding: 1%;
@@ -340,3 +349,5 @@ body {
         text-align: center;
     }
 }
+
+/* MEDIA SCREEN QUERIES END */
