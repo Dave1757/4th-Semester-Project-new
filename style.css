@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+* {
+    /* border: 1px solid red; */
+    font-family: 'Nunito', sans-serif;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: rgb(231, 139, 1);
+}
+
+.navbar {
+    /* backdrop-filter: blur(3px); */
+    background-color: #0080cfba;
+}
+
+body {
+    /* background: url(./img/bg8.jpg); */
+    background-image: linear-gradient(to right bottom, #051937, #003653, #005253, #096a3b, #717b1f);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.events {
+    margin-top: 5rem;
+    color: white;
+    text-align: center;
+}
+
+.events span {
+    color: rgb(0, 214, 214);
+    font-weight: bold;
+}
+
+/* Search Bar */
+.form-control {
+    border-radius: 17px;
+    height: 35px;
+    width: 180px;
+}
+
+.search-bar {
+    margin-top: 2px;
+}
+
+.search-btn {
+    border-radius: 20px;
+    background-color: #895d00;
+}
+
+.search-btn:hover {
+    border-radius: 20px;
+    background-color: #006503;
+}
+
+/* Search Bar */
+
+/* for images */
+.d-block {
+    /* border: 1px solid rgb(255, 221, 0); */
+    /* width: 917px; */
+    /* width is set in the class itself */
+    height: 390px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+/* for images */
+
+.carousel {
+    padding: 1%;
+    margin: 1% 13% 1% 13%;
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 2.3rem;
+}
+
+.register-btn {
+    border-radius: 10px;
+    right: 42.5%;
+    bottom: 1.7rem;
+    position: absolute;
+    font-size: 13px;
+    background-color: #895d00;
+}
+
+.register-btn:hover {
+    background-color: #006503;
+}
+
+.services {
+    margin: 2rem 0rem 0rem 0rem;
+    color: white;
+    text-align: center;
+}
+
+.services span {
+    font-weight: bold;
+    color: rgb(0, 214, 214);
+}
+
+
+.box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 20rem);
+    gap: 20px;
+    justify-content: center;
+    /* background-color: #fff; */
+}
+
+.cards {
+    border-radius: 15px;
+    background-color: #c9d3a0;
+    /* width: 18rem; */
+    padding: 0rem 1rem;
+    /* margin-top: 1rem; */
+}
+
+.mycards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 12rem;
+}
+
+.mycards i {
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.mycards a {
+    text-decoration: none;
+}
+
+.card-title {
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.card-text {
+    margin-top: 5px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 991px) {
+    body {
+        /* background: url(./img/bg8.jpg); */
+        background-repeat: no-repeat;
+    }
+
+    .sidebar {
+        background-color: rgba(141, 124, 26, 0.221);
+        backdrop-filter: blur(7px);
+        color: aliceblue;
+    }
+
+    .navbar-toggler-icon {
+        filter: invert(1);
+    }
+
+
+    .carousel {
+        padding: 1%;
+        margin: 1% 8% 1% 8%;
+        /* border-radius: 25px; */
+    }
+
+    .carousel-caption {
+        /* display: initial; */
+        position: absolute;
+    }
+
+    .d-block {
+        /* border: 1px solid rgb(119, 255, 0); */
+        /* width: 332px; */
+        width: 100%;
+        /* width is set in the class itself */
+        height: 220px;
+        /* height: 50%; */
+        object-fit: cover;
+        border-radius: 15px;
+    }
+
+    .register-btn {
+        border-radius: 10px;
+        right: 29.5%;
+        bottom: 1.5 rem;
+        position: absolute;
+        font-size: 13px;
+        background-color: #895d00;
+    }
+
+    .register-btn:hover {
+        background-color: #006503;
+    }
+
+    .card-text {
+        margin-top: 5px;
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 450px) {
+    .box-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 11rem);
+        gap: 10px;
+        justify-content: center;
+        /* background-color: #fff; */
+    }
+
+    .cards {
+        border-radius: 15px;
+        background-color: #c9d3a0;
+        /* width: 18rem; */
+        padding: 0rem 1rem;
+        /* margin-top: 1rem; */
+    }
+
+    .mycards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 12rem;
+    }
+
+    .mycards i {
+        font-size: 2rem;
+        margin: 1rem;
+    }
+
+    .mycards a {
+        text-decoration: none;
+    }
+
+    .card-title {
+        font-size: 17px;
+    }
+
+    .card-text {
+        margin-top: 5px;
+        font-size: 12px;
+        text-align: center;
+    }
+}
