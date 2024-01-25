@@ -29,13 +29,16 @@
 /* Search Bar Start */
 .form-control {
     margin-top: 2.5px;
+    margin-right: 5px;
     height: 34px;
     width: 180px;
     border-radius: 17px;
+    font-size: smaller;
 }
 
 .search-btn {
     margin-top: 2.5px;
+    margin-right: 5px;
     height: 34px;
     border-radius: 17px;
     background-color: #895d00;
@@ -100,7 +103,7 @@ body {
     right: 0;
     bottom: 0;
     left: 0;
-    font-size: 80%;
+    font-size: 90%;
     font-weight: bold;
     z-index: 4;
     border-radius: 17px;
@@ -121,7 +124,6 @@ body {
 /* SERVICES START */
 /* Services Heading Start */
 .services {
-    /* margin: 2rem 0rem 0rem 0rem; */
     color: white;
     text-align: center;
     padding: 1%;
@@ -183,6 +185,51 @@ body {
 /* Box Containers End */
 /* SERVICES END */
 
+
+/* ABOUT US START */
+.about {
+    margin: 20px 10px;
+    padding: 1%;
+    color: white;
+    text-align: center;
+}
+
+.about span {
+    font-weight: bold;
+    color: rgb(0, 214, 214);
+}
+
+/* ABOUT US END */
+
+
+/* MOMENTS START */
+.moments {
+    margin: 25px 10px 20px 10px;
+    padding: 1%;
+    color: white;
+    text-align: center;
+}
+
+.moments span {
+    font-weight: bold;
+    color: rgb(0, 214, 214);
+}
+
+.moment-cards {
+    border-radius: 15px;
+    /* background-color: #c9d3a000; */
+    padding: 0rem 1rem;
+    /* height: 20px; */
+}
+
+.moment-cards img {
+    border: 2px solid wheat;
+    border-radius: 10px;
+    object-fit: cover;
+    height: 12rem;
+}
+
+/* MOMENTS START */
 
 
 
@@ -310,7 +357,7 @@ body {
 
     .box-container {
         display: grid;
-        grid-template-columns: repeat(auto-fit, 9rem);
+        grid-template-columns: repeat(auto-fit, 12rem);
         gap: 10px;
         justify-content: center;
     }
