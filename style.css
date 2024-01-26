@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
 /* @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap'); */
 /* @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); */
 /* @import url('https://fonts.cdnfonts.com/css/hvdtrial-brandon-grotesque'); */
@@ -24,7 +24,14 @@ body {
 /* NAVBAR START */
 .navbar {
     /* backdrop-filter: blur(3px); */
-    background-color: #002942ba;
+    background-color: #00294298;
+}
+
+.navbar-brand img {
+    /* margin: 22px 0px; */
+    height: 40px;
+    /* margin-left: 40px; */
+    /* filter: saturate(3); */
 }
 
 .nav-link {
@@ -86,7 +93,6 @@ body {
 
 /* Images Start */
 .d-block {
-    /* border: 1px solid rgb(255, 221, 0); */
     /* width is set in the class itself */
     height: 390px;
     object-fit: cover;
@@ -178,6 +184,7 @@ body {
 }
 
 .card-title {
+    font-family: 'Nova Square', sans-serif;
     text-align: center;
     font-weight: 900;
 }
@@ -229,7 +236,7 @@ body {
 }
 
 .moment-cards img {
-    border: 2px solid wheat;
+    border: 2px solid rgba(28, 255, 244, 0.516);
     border-radius: 10px;
     object-fit: cover;
     height: 12rem;
@@ -261,22 +268,21 @@ ul {
 
 .footer {
     margin-top: 3rem;
-    background-color: #06302b;
+    background-color: #06302b98;
     padding: 20px;
 }
 
 .footer-col {
     width: 25%;
-    padding: 0 15px;
+    padding: 0px 15px;
 }
 
 .footer-logo img {
-    height: 100px;
-    width: 100px;
+    margin: 22px 0px;
+    height: 5rem;
     object-fit: cover;
+    filter: saturate(3);
 }
-
-
 
 .footer-col h4 {
     font-size: 18px;
@@ -308,7 +314,7 @@ ul {
     color: #ffffff;
     text-decoration: none;
     font-weight: 300;
-    color: #bbbbbb;
+    color: #a9a9a9;
     display: block;
     transition: all 0.3s ease;
 }
@@ -319,7 +325,7 @@ ul {
 }
 
 .footer-col ul li {
-    color: #bbbbbb;
+    color: #a9a9a9;
 }
 
 .footer-col ul li:hover {
@@ -356,7 +362,6 @@ ul {
 /* MEDIA SCREEN QUERIES START */
 @media (max-width: 991px) {
     body {
-        /* background: url(./img/bg8.jpg); */
         background-repeat: no-repeat;
     }
 
@@ -393,7 +398,6 @@ ul {
 
     .d-block {
         height: 350px;
-        /* width is set in the class itself */
         object-fit: cover;
         border-radius: 15px;
     }
@@ -416,7 +420,6 @@ ul {
 @media (max-width: 767px) {
     .d-block {
         height: 300px;
-        /* width is set in the class itself */
         object-fit: cover;
         border-radius: 15px;
     }
@@ -435,7 +438,6 @@ ul {
 @media (max-width: 575px) {
     .d-block {
         height: 270px;
-        /* width is set in the class itself */
         object-fit: cover;
         border-radius: 15px;
     }
@@ -455,7 +457,6 @@ ul {
 
     .d-block {
         height: 220px;
-        /* width is set in the class itself */
         object-fit: cover;
         border-radius: 15px;
     }
