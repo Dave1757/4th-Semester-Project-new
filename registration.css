@@ -1,0 +1,19 @@
+.event-selected {
+    width: 88%;
+}
+
+.reg-body {
+    margin: 2% 5% 0% 5%;
+    padding: 2% 5% 4% 5%;
+    background-color: #50eb5d21;
+    border-radius: 25px;
+    box-shadow: 10px 10px 6px rgba(0, 0, 0, 0.25);
+}
+
+.reg-input {
+    border-radius: 5px;
+}
+
+.form-select {
+    width: 100%;
+}
