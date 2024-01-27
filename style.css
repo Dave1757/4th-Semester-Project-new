@@ -52,7 +52,6 @@ body {
 
 .search-btn {
     margin-top: 2.5px;
-    margin-right: 5px;
     height: 34px;
     border-radius: 17px;
     background-color: #895d00;
@@ -198,14 +197,14 @@ body {
 
 
 /* ABOUT US START */
-.about {
+.about-head {
     margin: 1%;
     padding: 1%;
     color: white;
     text-align: center;
 }
 
-.about span {
+.about-head span {
     font-weight: bold;
     color: rgb(0, 214, 214);
 }
