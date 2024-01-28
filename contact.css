@@ -37,7 +37,7 @@
     right: 5px;
     top: 50%;
     transform: translateY(-50%);
-    /* transition: 0.3s; */
+    transition: 0.3s;
     background: #afafb6;
 }
 
@@ -87,10 +87,9 @@
     border: none;
     outline: none;
     font-size: 16px;
-    background: #F0F1F8;
+    background: rgb(255, 255, 255);
     border-radius: 6px;
     padding: 0 15px;
-    resize: none;
 }
 
 .message-box {
@@ -131,7 +130,6 @@
         justify-content: space-between;
         align-items: center;
         position: relative;
-        /* border: solid red; */
     }
 
     .left-side::before {
@@ -143,7 +141,6 @@
         width: 50%;
         transform: translateY(-50%);
         background: #9d9d9d;
-        /* transition: 0.3s; */
     }
 }
 
