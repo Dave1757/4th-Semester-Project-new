@@ -11,6 +11,7 @@
     /* font-family: 'Nunito', sans-serif; */
     /* font-family: 'Montserrat', sans-serif; */
     /* font-family: 'HvDTrial Brandon Grotesque', sans-serif; */
+    /* font-family: 'Poppins', sans-serif; */
     font-family: 'Quicksand', sans-serif;
     transition: .3s;
 }
@@ -19,6 +20,7 @@ body {
     background-image: linear-gradient(to right bottom, #051937, #003653, #005253, #096a3b, #717b1f);
     background-repeat: no-repeat;
     background-size: cover;
+    /* line-height: 1.5; */
 }
 
 /* NAVBAR START */
@@ -166,6 +168,7 @@ body {
 .cards {
     border-radius: 15px;
     background-color: #b6ffe7;
+    box-shadow: 8px 8px 6px rgba(0, 0, 0, 0.25);
 }
 
 .mycards {
@@ -239,11 +242,10 @@ body {
 
 .moment-cards {
     border-radius: 15px;
-    /* padding: 0rem 1rem; */
 }
 
 .moment-cards img {
-    border: 2px solid rgba(28, 255, 244, 0.516);
+    border: 2px solid rgb(255, 255, 255);
     border-radius: 10px;
     object-fit: cover;
     height: 12rem;
@@ -253,11 +255,6 @@ body {
 
 
 /* FOOTER START */
-body {
-    line-height: 1.5;
-    font-family: 'Poppins', sans-serif;
-}
-
 .container {
     max-width: 1170px;
     margin: auto;
@@ -380,10 +377,6 @@ ul {
 
 /* MEDIA SCREEN QUERIES START */
 @media (max-width: 991px) {
-    body {
-        background-repeat: no-repeat;
-    }
-
     .navbar-toggler-icon {
         filter: invert(1);
     }
@@ -391,7 +384,7 @@ ul {
     .sidebar {
         background-color: rgba(141, 124, 26, 0.221);
         backdrop-filter: blur(7px);
-        color: aliceblue;
+        color: #ffffff;
     }
 
     .d-flex {
