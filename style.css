@@ -155,11 +155,17 @@ body {
     justify-content: center;
 }
 
+.moment-box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 20rem);
+    gap: 20px;
+    justify-content: center;
+}
+
 /* Cards Start */
 .cards {
     border-radius: 15px;
     background-color: #b6ffe7;
-    padding: 0rem 1rem;
 }
 
 .mycards {
@@ -167,6 +173,7 @@ body {
     flex-direction: column;
     align-items: center;
     height: 12rem;
+    padding: 0rem 1rem;
 }
 
 /* Icons Starts */
@@ -232,7 +239,7 @@ body {
 
 .moment-cards {
     border-radius: 15px;
-    padding: 0rem 1rem;
+    /* padding: 0rem 1rem; */
 }
 
 .moment-cards img {
@@ -486,11 +493,17 @@ ul {
         justify-content: center;
     }
 
+    .moment-box-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 10rem);
+        gap: 10px;
+        justify-content: center;
+    }
+
     .cards {
         border-radius: 15px;
         background-color: #c9d3a0;
         background-color: #b6ffe7;
-        padding: 0rem 1rem;
     }
 
     .mycards {
@@ -498,6 +511,7 @@ ul {
         flex-direction: column;
         align-items: center;
         height: 12rem;
+        padding: 0rem 1rem;
     }
 
     .mycards i {
