@@ -34,7 +34,7 @@
     height: 450px;
     overflow: hidden;
     background-color: #fff;
-    box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.15);
+    box-shadow: 8px 8px 6px rgba(0, 0, 0, 0.25);
     cursor: pointer;
     border-radius: 15px;
 }
@@ -55,6 +55,7 @@
 .body-container {
     position: relative;
 }
+
 .body-container a {
     text-decoration: none;
     color: #fff;
