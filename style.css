@@ -118,7 +118,7 @@ body {
     position: absolute;
     bottom: 100%;
     font-size: 90%;
-    font-weight: bold;
+    /* font-weight: bold; */
     z-index: 4;
     border-radius: 17px;
     background-color: #895d00;
