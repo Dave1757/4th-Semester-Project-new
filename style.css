@@ -20,7 +20,6 @@ body {
     background-image: linear-gradient(to right bottom, #051937, #003653, #005253, #096a3b, #717b1f);
     background-repeat: no-repeat;
     background-size: cover;
-    /* line-height: 1.5; */
 }
 
 /* NAVBAR START */
@@ -105,22 +104,23 @@ body {
     bottom: 2.3rem;
 }
 
+.carousel-indicators [data-bs-target] {
+    opacity: 0.3;
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+}
+
 /* Register Button Start */
 .register-btn {
     font-family: 'Nunito', sans-serif;
-    display: flex;
-    justify-content: center;
     position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
+    bottom: 100%;
     font-size: 90%;
     font-weight: bold;
     z-index: 4;
     border-radius: 17px;
-    margin-right: 38%;
-    margin-bottom: 1.5rem;
-    margin-left: 38%;
     background-color: #895d00;
 }
 
@@ -418,11 +418,6 @@ ul {
         border-radius: 15px;
     }
 
-    .register-btn {
-        margin-right: 36%;
-        margin-left: 36%;
-    }
-
     .register-btn:hover {
         background-color: #006503;
     }
@@ -440,11 +435,6 @@ ul {
         border-radius: 15px;
     }
 
-    .register-btn {
-        margin-right: 33%;
-        margin-left: 33%;
-    }
-
     .footer-col {
         width: 50%;
         margin-bottom: 30px;
@@ -459,9 +449,7 @@ ul {
     }
 
     .register-btn {
-        margin-right: 29%;
-        margin-left: 29%;
-        font-size: 70%;
+        font-size: 75%;
     }
 
     .footer-col {
@@ -475,12 +463,6 @@ ul {
         height: 220px;
         object-fit: cover;
         border-radius: 15px;
-    }
-
-    .register-btn {
-        margin-right: 21%;
-        margin-left: 21%;
-        font-size: 70%;
     }
 
     .box-container {
