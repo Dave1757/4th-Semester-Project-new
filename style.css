@@ -70,12 +70,6 @@ body {
 
 /* EVENTS START */
 /* Events Heading Start */
-.events {
-    margin-top: 5rem;
-    color: #fff;
-    text-align: center;
-}
-
 .events span {
     font-weight: bold;
     color: rgb(0, 214, 214);
