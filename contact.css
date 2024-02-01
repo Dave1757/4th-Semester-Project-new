@@ -14,6 +14,11 @@
     font-family: 'Quicksand', sans-serif;
 }
 
+.cont-head span {
+    font-weight: bold;
+    color: rgb(0, 214, 214);
+}
+
 .cont-body {
     padding: 3% 0% 3% 0%;
     background-color: #cfeb5021;
